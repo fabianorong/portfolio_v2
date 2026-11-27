@@ -64,11 +64,11 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Olá, me chamo Fabiano.</span> Sou{" "}
-        <span className="font-bold">desenvolvedor front-end</span> com{" "}
-        <span className="font-bold">18 meses</span> de estágio criando
-        interfaces. Gosto de transformar uma ideia em{" "}
-        <span className="italic">tela que funciona</span>. Meu foco é{" "}
-        <span className="underline">React, TypeScript e Next.js</span>.
+        <span className="font-bold">desenvolvedor front-end</span> e construo
+        interfaces com{" "}
+        <span className="underline">React, TypeScript e Next.js</span>, como o
+        site do campeonato <span className="font-bold">CFLOL</span>, que está
+        no ar.
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-5 px-4 text-lg font-medium"
