@@ -33,7 +33,7 @@ export default function Intro() {
             >
               <Image
                 src="/profilepic.png"
-                alt="my photo"
+                alt="Foto de Fabiano Rong"
                 width="192"
                 height="192"
                 quality="95"
@@ -64,10 +64,11 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Olá, me chamo Fabiano.</span> Sou{" "}
-        <span className="font-bold">desenvolvedor Full-stack</span> com{" "}
-        <span className="font-bold">2 anos</span> de experiência. Gosto de
-        solucionar problemas através de <span className="italic">código</span>.
-        Meu foco é <span className="underline">React (Next.js)</span>.
+        <span className="font-bold">desenvolvedor front-end</span> com{" "}
+        <span className="font-bold">18 meses</span> de estágio criando
+        interfaces. Gosto de transformar uma ideia em{" "}
+        <span className="italic">tela que funciona</span>. Meu foco é{" "}
+        <span className="underline">React, TypeScript e Next.js</span>.
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-5 px-4 text-lg font-medium"
@@ -78,7 +79,7 @@ export default function Intro() {
         }}
       >
         <Link
-          href="#contact"
+          href="#contato"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-3 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
           onClick={() => {
             setActiveSection("Contato");
@@ -102,6 +103,7 @@ export default function Intro() {
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack  "
           href="https://www.linkedin.com/in/fabianorong/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <BsLinkedin />
         </a>
@@ -110,6 +112,7 @@ export default function Intro() {
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack "
           href="https://github.com/fabianorong"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <FaGithubSquare />
         </a>

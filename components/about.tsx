@@ -20,35 +20,32 @@ export default function About() {
     >
       <SectionHeading>Sobre mim</SectionHeading>
       <p className="mb-3">
-        Depois de me formar em{" "}
-        <span className="font-bold">Engenharia de Alimentos</span>, descobri
-        minha paixão por tecnologia e programação. Continuei meus estudos em{" "}
-        <span className="font-bold">Engenharia de Software</span> e concluí
-        cursos em{" "}
+        Me formei em <span className="font-bold">Engenharia de Alimentos</span>{" "}
+        e fui <span className="font-bold">designer gráfico</span> antes de
+        programar. Desde junho de 2025 trabalho como estagiário front-end num
+        time de produto: entreguei{" "}
+        <span className="font-bold">382 PRs em 9 repositórios</span>, criei
+        cerca de 140 componentes React e escrevi 72 testes E2E em Playwright. O
+        dia a dia é{" "}
         <span className="font-bold">
-          JavaScript, Python, React.js, and SQL.{" "}
+          React, TypeScript, Redux e TanStack Query
         </span>
-        Minha parte favorita da programação é a{" "}
-        <span className="italic">resolução de problemas</span>. Eu{" "}
-        <span className="underline">amo</span> a sensação de finalmente
-        descobrir a solução para o problema. Minhas Stacks principais são{" "}
-        <span className="font-bold">React, Next.js, Node.js, NestJS</span>.
-        Também sou proficiente em TypeScript, Redux e Prisma. Estou sempre
-        ansioso para explorar novas tecnologias.
+        , sempre com PR revisado, lint, testes e build no CI antes do merge.
       </p>
 
       <p>
-        Quando não estou
-        <span className="italic"> codando</span>, gosto de trabalhar em projetos
-        pessoais, jogar videogames e me manter atualizado sobre as últimas
-        tendências tecnológicas. Também tenho experiência em{" "}
-        <span className="font-bold">design gráfico</span>, o que aprimora minha
-        capacidade de criar experiências de usuário visualmente atraentes.
-        Ultimamente, tenho me aprofundado em{" "}
-        <span className="font-bold">
-          arquitetura de software e design de sistemas
-        </span>{" "}
-        para refinar ainda mais minhas habilidades de desenvolvimento.
+        Fora do estágio, desenvolvo o site do{" "}
+        <span className="font-bold">CFLOL</span>, campeonato de League of
+        Legends de Foz do Iguaçu, e o <span className="font-bold">WebLol</span>,
+        ferramenta tática de LoL que construí com o Bruno. Uso{" "}
+        <span className="italic">IA</span> no desenvolvimento, mas com processo
+        em volta: branch por tarefa, testes, revisão visual e build antes de
+        publicar. O design me ajuda a entregar telas acessíveis e fiéis ao
+        layout. Procuro uma{" "}
+        <span className="underline">
+          vaga de desenvolvedor front-end júnior
+        </span>
+        , remota ou em Florianópolis.
       </p>
     </motion.section>
   );

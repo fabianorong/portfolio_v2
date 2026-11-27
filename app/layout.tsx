@@ -8,8 +8,8 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Fabiano | Personal Portfolio",
-  description: "Fabiano is a full-stack developer with 2 years of experience.",
+  title: "Fabiano Rong | Desenvolvedor Front-end",
+  description: "Portfolio de Fabiano Rong, desenvolvedor front-end focado em React, TypeScript e Next.js.",
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="!scroll-smooth">
+    <html lang="pt-BR" className="!scroll-smooth">
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36`}
       >
